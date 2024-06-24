@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+   <FrameLayout
+       android:background="@color/walletComponents"
+       android:layout_width="350dp"
+       android:layout_height="50dp"
+       android:layout_marginStart="10dp">
+
+       <TextView
+           android:textColor="@color/white"
+           android:id="@+id/tvMovimientoDescripcion"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Comedor UTH"
+           android:layout_marginStart="6dp"
+           android:textSize="16sp" />
+
+       <TextView
+           android:textColor="@color/white"
+           android:id="@+id/tvMovimientoFecha"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="06/06/204"
+           android:layout_marginStart="6dp"
+           android:layout_marginTop="25dp"
+           android:textSize="14sp" />
+
+       <TextView
+           android:id="@+id/tvMovimientoMonto"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="310dp"
+           android:layout_marginTop="-20dp"
+           android:text="$ 300"
+           android:textColor="@color/white"
+           android:textSize="18sp" />
+   </FrameLayout>
+
+</LinearLayout>
+

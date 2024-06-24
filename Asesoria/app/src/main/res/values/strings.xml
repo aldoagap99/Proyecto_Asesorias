@@ -2,4 +2,10 @@
     <string name="app_name">Asesoria</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Login Fragment -->
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="copyright">2024</string>
+    <string name="default_web_client_id">356051156234-9papjvlmh26rk92q76uthhjdsi74v47c.apps.googleusercontent.com</string>
+    <string name="only_uth">Only for students and faculty of UTH</string>
 </resources>

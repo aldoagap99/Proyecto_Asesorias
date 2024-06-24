@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="onboarding.ThirdFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange">
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="@drawable/rounded_top_corners"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+
+        <Button
+            android:id="@+id/button_frament3"
+            android:backgroundTint="@color/orange"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="280dp"
+            android:translationZ="15dp"
+            android:outlineSpotShadowColor="@color/orange"
+            android:text="Empieza ya" />
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/subtitle1_frament3"
+            android:layout_width="362dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="40dp"
+            android:text="Accede a tutorías personalizadas y mejora tus calificaciones." />
+        <TextView
+            android:id="@+id/textView3"
+            style="@style/subtitle1_frament3"
+            android:layout_width="362dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:layout_marginStart="40dp"
+            android:text="Recibe ayuda en tiempo real y resuelve tus dudas rápidamente." />
+        <TextView
+            android:id="@+id/textView4"
+            style="@style/subtitle1_frament3"
+            android:layout_width="362dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="140dp"
+            android:layout_marginStart="40dp"
+            android:text="Únete a nuestra comunidad de estudiantes exitosos." />
+
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/img_firstFragment"
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/start"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.277" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/title_frament2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="¡Empieza Ahora!"
+        app:layout_constraintBottom_toTopOf="@+id/img_firstFragment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

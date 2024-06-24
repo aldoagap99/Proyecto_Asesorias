@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/frameLayout9"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="388dp"
+        android:background="@color/graybajo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <FrameLayout
+
+            android:layout_width="90dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/gray" />
+
+        <FrameLayout
+            android:layout_width="90dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/gray" />
+
+        <FrameLayout
+            android:layout_width="90dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/gray" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout16"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/graybajo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout9">
+
+        <FrameLayout
+            android:layout_width="90dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/gray" />
+
+        <FrameLayout
+            android:layout_width="90dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/gray" />
+
+        <FrameLayout
+            android:layout_width="90dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/gray" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frameLayout17"
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/graybajo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout16">
+
+        <FrameLayout
+            android:layout_width="90dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/gray" />
+
+        <FrameLayout
+            android:layout_width="90dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/gray" />
+
+        <FrameLayout
+            android:layout_width="90dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/gray" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="320dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="19dp"
+        android:background="@color/graybajo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout17">
+
+        <FrameLayout
+            android:layout_width="90dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/gray" />
+
+        <FrameLayout
+            android:layout_width="90dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/gray" />
+
+        <FrameLayout
+            android:layout_width="90dp"
+            android:layout_height="15dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/gray" />
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

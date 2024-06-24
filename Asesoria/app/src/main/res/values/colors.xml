@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="teal">#0ab396</color>
+    <color name="orange">#FF6100</color>
+    <color name="gray">#878787</color>
+    <color name="graybajo">#C6CDCDCD</color>
+    <color name="red">#860000</color>
+    <color name="green">#009E00</color>
+    <color name="blue">#00FFFF</color>
+    <color name="backgroudWallet">#0E1139</color>
+    <color name="walletComponents">#E4261362</color>
 </resources>

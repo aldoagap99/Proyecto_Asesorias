@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "356051156234",
+    "firebase_url": "https://coyocooins-default-rtdb.firebaseio.com",
+    "project_id": "coyocooins",
+    "storage_bucket": "coyocooins.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:356051156234:android:8662cfbae557d231f90ef3",
+        "android_client_info": {
+          "package_name": "mx.edu.uthermosillo.a19311900.asesoria"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "356051156234-9papjvlmh26rk92q76uthhjdsi74v47c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mx.edu.uthermosillo.a19311900.asesoria",
+            "certificate_hash": "8976bbf3c454cb758a44476414f143c770d79755"
+          }
+        },
+        {
+          "client_id": "356051156234-aj1h8k2ne105ahe22s78sb02he509spk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3CS_c2UXyWD4ZmMgLSGz65_onBz9eYWs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "356051156234-aj1h8k2ne105ahe22s78sb02he509spk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

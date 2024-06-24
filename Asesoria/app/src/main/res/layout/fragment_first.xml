@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+        tools:context="onboarding.FirstFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/teal">
+
+    <ImageView
+        android:id="@+id/img_firstFragment"
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="44dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/teach"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/rounded_top_corners"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_firstFragment">
+
+        <TextView
+            android:id="@+id/welcome"
+            style="@style/title"
+            android:layout_width="322dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:text="¡Bienvenido a Tutorias UTH!"
+            android:shadowColor="#80000000"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="4"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@id/introduction"
+            app:layout_constraintStart_toStartOf="@id/content" />
+
+        <TextView
+            android:id="@+id/introduction"
+            style="@style/text_introduction"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="120dp"
+            android:text="¡Empieza a aprender de forma fácil y personalizada! Conecta con tutores expertos en minutos y mejora tus habilidades académicas."/>
+
+        <TextView
+            android:id="@+id/question"
+            style="@style/text_question"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="240dp"
+            android:text="¿Listo para comenzar?" />
+
+            <Button
+                android:id="@+id/button"
+                style="@style/login_button"
+                android:layout_width="132dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="250dp"
+                android:layout_marginTop="300dp"
+                android:translationZ="15dp"
+                android:outlineSpotShadowColor="@color/blue"
+                android:text="Comienza" />
+
+
+
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+

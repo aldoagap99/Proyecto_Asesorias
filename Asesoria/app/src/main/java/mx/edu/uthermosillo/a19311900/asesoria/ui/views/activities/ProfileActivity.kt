@@ -1,10 +1,11 @@
-package mx.edu.uthermosillo.a19311900.asesoria
+package mx.edu.uthermosillo.a19311900.asesoria.ui.views.activities
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import mx.edu.uthermosillo.a19311900.asesoria.R
 
 class ProfileActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -1,6 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/main_nav.xml">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav.xml"
+    app:startDestination="@id/dashboardFragment">
 
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="mx.edu.uthermosillo.a19311900.asesoria.DashboardFragment"
+        android:label="fragment_dashboard"
+        tools:layout="@layout/fragment_dashboard" >
+        <action
+            android:id="@+id/action_dashboardFragment_to_subjectsFragment"
+            app:destination="@id/subjectsFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_addClassFragment"
+            app:destination="@id/addClassFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_scheduleFragment"
+            app:destination="@id/scheduleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/scheduleFragment"
+        android:name="mx.edu.uthermosillo.a19311900.asesoria.ScheduleFragment"
+        android:label="fragment_schedule"
+        tools:layout="@layout/fragment_schedule" />
+    <fragment
+        android:id="@+id/addClassFragment"
+        android:name="mx.edu.uthermosillo.a19311900.asesoria.AddClassFragment"
+        android:label="fragment_add_class"
+        tools:layout="@layout/fragment_add_class" />
+    <fragment
+        android:id="@+id/subjectsFragment"
+        android:name="mx.edu.uthermosillo.a19311900.asesoria.SubjectsFragment"
+        android:label="fragment_subjects"
+        tools:layout="@layout/fragment_subjects" >
+        <action
+            android:id="@+id/action_subjectsFragment_to_subjectFragment"
+            app:destination="@id/subjectFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/subjectFragment"
+        android:name="mx.edu.uthermosillo.a19311900.asesoria.SubjectFragment"
+        android:label="fragment_subject"
+        tools:layout="@layout/fragment_subject" />
 </navigation>

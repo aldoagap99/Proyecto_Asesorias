@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="onboarding.SecondFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/orange">
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:background="@drawable/rounded_top_corners"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+
+        <Button
+            android:id="@+id/button_frament2"
+            android:backgroundTint="@color/orange"
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="280dp"
+            android:translationZ="15dp"
+            android:outlineSpotShadowColor="@color/orange"
+            android:text="Siguiente" />
+
+
+
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/title_frament2"
+        style="@style/title_frament2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="¿Cómo Funciona?"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.113"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/subtitle1_frament2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="1. Encuentra Tutores"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.139"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/title_frament2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        style="@style/subtitle2_frament2"
+        android:layout_width="359dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="24dp"
+        android:text="Usa nuestra búsqueda avanzada para encontrar tutores según la materia que necesitas."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.865"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView3" />
+
+
+    <ImageView
+        android:id="@+id/img_firstFragment"
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="150dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/student"
+        app:layout_constraintBottom_toBottomOf="@+id/content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        style="@style/subtitle1_frament2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="56dp"
+        android:text="2. Reserva Sesiones"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView6"
+        style="@style/subtitle2_frament2"
+        android:layout_width="340dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="36dp"
+        android:text="Elige el horario que mejor se adapte a tu agenda. "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView7"
+        style="@style/subtitle2_frament2"
+        android:layout_width="340dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="60dp"
+        android:text="Reserva sesiones en línea o presenciales con solo unos clics"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView6" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
