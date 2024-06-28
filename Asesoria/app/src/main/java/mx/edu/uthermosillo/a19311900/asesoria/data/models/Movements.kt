@@ -1,4 +1,4 @@
-package mx.edu.uthermosillo.a19311900.asesoria.ui.adapters
+package mx.edu.uthermosillo.a19311900.asesoria.data.models
 
 data class Movimiento(
     val descripcion: String,

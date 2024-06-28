@@ -9,7 +9,7 @@ import mx.edu.uthermosillo.a19311900.asesoria.databinding.FragmentWalletBinding
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import mx.edu.uthermosillo.a19311900.asesoria.ui.adapters.MovementsAdapter
-import mx.edu.uthermosillo.a19311900.asesoria.ui.adapters.Movimiento
+import mx.edu.uthermosillo.a19311900.asesoria.data.models.Movimiento
 
 
 class WalletFragment : Fragment() {

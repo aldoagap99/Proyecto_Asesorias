@@ -5,6 +5,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import mx.edu.uthermosillo.a19311900.asesoria.R
+import mx.edu.uthermosillo.a19311900.asesoria.data.models.Movimiento
 
 class MovementsAdapter(private val movimientos: List<Movimiento>) :
     RecyclerView.Adapter<MovementsAdapter.MovimientoViewHolder>() {

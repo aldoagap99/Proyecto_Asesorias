@@ -16,6 +16,7 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.auth.GoogleAuthProvider
 import mx.edu.uthermosillo.a19311900.asesoria.databinding.FragmentLoginBinding
+import mx.edu.uthermosillo.a19311900.asesoria.ui.views.activities.MainActivity
 
 class LoginFragment : Fragment() {
     private var _binding: FragmentLoginBinding? = null
@@ -74,15 +75,8 @@ class LoginFragment : Fragment() {
     }
 
     private fun updateUI(user: FirebaseUser?) {
-        if (user != null) {
-            Log.w(TAG,"Si loguea")
-            // Utiliza NavController para navegar al DashboardFragment
-            findNavController().navigate(R.id.action_loginFragment_to_dashboardFragment2)
-        }
-    }
-
-    override fun onDestroyView() {
-        super.onDestroyView()
-        _binding = null
+        val intent = Intent(activity, MainActivity::class.java)
+        startActivity(intent)
+        requireActivity().finish()
     }
 }
